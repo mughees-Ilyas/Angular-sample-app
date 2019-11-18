@@ -1,0 +1,17 @@
+﻿<div class="card mt-4">
+    <h4 class="card-header">User List Page</h4>
+    <div class="card-body">
+        <div *ngIf="loading" class="spinner-border spinner-border-sm"></div>
+      <ul class="users">
+        <li *ngFor="let user of users let i = index "
+            [class.selected]="user.id === selectedId">
+          <a [routerLink]="['/users', user.id]">
+            <span class="badge">{{ i+1 }}</span>{{ user.firstName }}
+          </a>
+        </li>
+      </ul>
+
+      <button class="btn btn-primary" (click)="newUser()">Add user</button>
+    </div>
+
+</div>

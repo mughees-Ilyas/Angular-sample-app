@@ -1,0 +1,23 @@
+﻿<div class="card mt-4">
+    <h4 class="card-header">User Detail Page</h4>
+    <div class="card-body">
+        <div *ngIf="loading" class="spinner-border spinner-border-sm"></div>
+        <div *ngIf="users">
+            <div *ngFor="let user of users">
+              <div>
+                First Name : {{user.firstName}}
+              </div>
+              <div>
+                Last Name : {{user.lastName}}
+              </div>
+              <div>
+                Address: {{user.address}}
+              </div>
+              <div>
+                Date of birth: {{user.dob}}
+              </div>
+            </div>
+        </div>
+      <button class="btn btn-primary" (click)="getBack()">Back</button>
+    </div>
+</div>
