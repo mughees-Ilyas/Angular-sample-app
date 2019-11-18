@@ -7,16 +7,21 @@ steps to run the project
 
 ## user credintials
 for login purpose use 
+
 username: test
+
 password: test
 
 or
 
 username: admin
+
 password: admin
 
 Any new user created will have authentication credintials as well. in case of new user created 
+
 username: {first name}
+
 password: {first name}
 
 
