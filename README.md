@@ -26,6 +26,17 @@ password: {first name}
 
 as backend is a mocked one, if you refresh the page all new users will be deleted. (but as the information for login user is stored in local storage so you will still stay login. just the data will not appear in user list)
 
+## routes
+we have   
+
+/login route for login
+
+/users for user list view
+
+/users/:id to view specific user.
+
+/users/user/new to add new user
+
 
 ## Project file setup
 
