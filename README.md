@@ -5,7 +5,7 @@ steps to run the project
 2) run npm install to install dependencieis
 3)run npm start.
 
-#Project file setup
+## Project file setup
 
 pages folder have all the pages (login, user view etc)
 components folder have components that are either universal such as navbar or reuseable.
@@ -14,7 +14,7 @@ _helper folder have auth guard to specifiy which routes are protected and some H
 _Service folder have project services (authentication and user service) 
 
 
-#project explanation.
+## project explanation.
 
 We have a simple authentication model to login. it will be intercepted by our mock backend which is build using HTTP interceptor
 
