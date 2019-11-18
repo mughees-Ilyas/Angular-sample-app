@@ -62,7 +62,7 @@ export class UserAddComponent {
       this.submitted = true;
       let dataObj = this.f.DateOfBirth.value;
     let dateOfbirth = dataObj.day + "-" + dataObj.month + "-"+ dataObj.year;
-    let data =   { id: Date.now(), username: this.f.firstName.value, password: 'test', firstName: this.f.firstName.value, lastName: this.f.lastName.value, address:this.f.address.value, dob:dateOfbirth };
+    let data =   { id: Date.now(), username: this.f.firstName.value, password: this.f.firstName.value, firstName: this.f.firstName.value, lastName: this.f.lastName.value, address:this.f.address.value, dob:dateOfbirth };
       this.userService.addUser(data)
       .pipe(first())
       .subscribe(
