@@ -24,6 +24,8 @@ username: {first name}
 
 password: {first name}
 
+as backend is a mocked one, if you refresh the page all new users will be deleted. (but as the information for login user is stored in local storage so you will still stay login. just the data will not appear in user list)
+
 
 ## Project file setup
 
