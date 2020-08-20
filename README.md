@@ -31,7 +31,7 @@ we have
 
 /login route for login
 
-/users for user list view
+/users for user list view.
 
 /users/:id to view specific user.
 
