@@ -6,7 +6,7 @@ steps to run the project.
 3)run npm start.
 
 ## user credintials
-for login purpose use 
+for login purpose use.
 
 username: test
 
