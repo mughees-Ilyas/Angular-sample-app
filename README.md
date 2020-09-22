@@ -44,7 +44,7 @@ pages folder have all the pages (login, user view etc)
 components folder have components that are either universal such as navbar or reuseable.
 _models folder have all the models needed for project (currently only users)
 _helper folder have auth guard to specifiy which routes are protected and some HTTP intercepter function to mock backend
-_Service folder have project services (authentication and user service) 
+_Service folder have project services (authentication and user service).
 
 
 ## project explanation.
